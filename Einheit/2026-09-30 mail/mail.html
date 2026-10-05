@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anmeldung für einen Kurs</title>
+</head>
+
+<body>
+
+    <h1>Anmeldung für einen Kurs</h1>
+
+    <form action="mailto:lorenzd@spengergasse.at?subject=Anmeldung%20für%20einen%20Kurs"
+          method="post"
+          enctype="text/plain">
+
+        <h2>Persönliche Daten</h2>
+
+        Vorname:
+        <input type="text" name="vorname">
+
+        <br><br>
+
+        Nachname:
+        <input type="text" name="nachname">
+
+        <br><br>
+
+
+        <h2>Geschlecht</h2>
+
+        <input type="radio"
+               name="geschlecht"
+               value="weiblich">
+        Weiblich
+
+        <br>
+
+        <input type="radio"
+               name="geschlecht"
+               value="maennlich">
+        Männlich
+
+        <br>
+
+        <input type="radio"
+               name="geschlecht"
+               value="divers">
+        Divers
+
+        <br><br>
+
+
+        <h2>Interessen</h2>
+
+        <input type="checkbox"
+               name="interesse"
+               value="sport">
+        Sport
+
+        <br>
+
+        <input type="checkbox"
+               name="interesse"
+               value="musik">
+        Musik
+
+        <br>
+
+        <input type="checkbox"
+               name="interesse"
+               value="reisen">
+        Reisen
+
+        <br>
+
+        <input type="checkbox"
+               name="interesse"
+               value="technik">
+        Technik
+
+        <br><br>
+
+
+        <h2>Welchen Kurs möchten Sie besuchen?</h2>
+
+        <select name="kurs">
+
+            <option value="webentwicklung">
+                Webentwicklung
+            </option>
+
+            <option value="deutsch">
+                Deutsch
+            </option>
+
+            <option value="informatik">
+                Informatik
+            </option>
+
+            <option value="bautechnik">
+                Bautechnik
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+        <h2>Welche weiteren Kurse interessieren Sie?</h2>
+
+        <select name="weitere_kurse" multiple>
+
+            <option value="webentwicklung">
+                Webentwicklung
+            </option>
+
+            <option value="deutsch">
+                Deutsch
+            </option>
+
+            <option value="informatik">
+                Informatik
+            </option>
+
+            <option value="bautechnik">
+                Bautechnik
+            </option>
+
+        </select>
+
+        <br><br>
+
+
+        <h2>Alter</h2>
+
+        <input type="number" name="alter">
+
+        <br><br>
+
+
+        <h2>Kommentar</h2>
+
+        <textarea name="kommentar"
+                  placeholder="Fügen Sie Ihren Kommentar ein!"
+                  rows="5"
+                  cols="40"></textarea>
+
+        <br><br>
+
+
+        <input type="submit"
+               value="Formular abschicken">
+
+        <input type="reset"
+               value="Formular zurücksetzen">
+
+    </form>
+
+</body>
+</html>
