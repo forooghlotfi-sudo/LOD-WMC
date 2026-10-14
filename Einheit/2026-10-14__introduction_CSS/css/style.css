@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+p:hover {
+  color: red;
+  font-size: 20px;
+}
+
+/*
+* {
+    background-color: #e92121;
+}
+
+p {
+    color: #649fd6;
+}
+
+p {
+    color: #c6d310;
+}
+
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*/
+
